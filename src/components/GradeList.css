@@ -1,0 +1,72 @@
+/* Genel stil ayarları */
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 20px;
+}
+
+/* Tablo stil ayarları */
+.table-container {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+table thead {
+	background-color: #007bff;
+	color: #ffffff;
+}
+
+table thead th {
+	padding: 10px;
+	text-align: left;
+}
+
+table tbody td {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+table thead th,
+table tbody td {
+	text-align: center;
+}
+
+/* Buton stil ayarları */
+.button {
+	padding: 5px 10px;
+	margin-right: 5px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-flex; /* İkonlarla uyumlu hale getirmek için */
+	align-items: center; /* İçerikleri dikey olarak ortalar */
+	justify-content: center;
+}
+
+.update-button {
+	background-color: #427ddb;
+	color: #333;
+}
+
+.delete-button {
+	background-color: #dc3545;
+	color: #fff;
+}
+
+.update-button:hover,
+.delete-button:hover {
+	opacity: 0.8;
+}
+.icon {
+	margin-right: 5px; /* İkon ve metin arasında boşluk */
+}
