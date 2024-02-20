@@ -19,6 +19,7 @@ function GradesList() {
 			const gradesWithNames = gradesData.map((grade) => ({
 				...grade,
 				studentName: `${grade.firstName} ${grade.lastName}`,
+				gradeId: grade.grade_id 
 			}));
 			setGrades(gradesWithNames);
 		} catch (error) {
